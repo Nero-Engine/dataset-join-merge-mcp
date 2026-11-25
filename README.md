@@ -101,6 +101,13 @@ Every lead comes back, the two customers enriched with their plan, and both `sta
 
 Change `joinType` to `leftAnti` and the same call returns only Cara and Dev, the leads with no billing record.
 
+## Skills
+
+This server also publishes ready-made playbooks (Skills over MCP), so Claude and other agents know the steps for the whole job, not just each tool. Each is a `SKILL.md` at `skill://<name>/SKILL.md`, listed by `skills/list` and `resources/list`, read with `resources/read`.
+
+- `enrich-rows-from-second-list`: Enrich one list of JSON rows with fields from another list (like a VLOOKUP or SQL join): add plan and revenue to leads, prices to products, owners to companies, then report match rates and the rows that did not match.
+- `find-missing-records`: Find the records in one list that are missing from another: leads not in the CRM, products not on the site, emails not yet contacted, suppliers with no invoice.
+
 ## Limits
 
 - Up to **500 rows per call**, counting `leftRows` and `rightRows` together. For a left, inner or leftAnti join on bigger lists, split `leftRows` across several calls and send the same `rightRows` with each.
