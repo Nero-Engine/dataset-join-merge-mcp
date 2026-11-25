@@ -3,7 +3,7 @@
   "name": "io.github.Nero-Engine/dataset-join-merge",
   "title": "Dataset Join & Merge",
   "description": "Join two lists of JSON rows on a key, like SQL or VLOOKUP: left, inner, full, anti joins, union.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "url": "https://github.com/Nero-Engine/dataset-join-merge-mcp",
     "source": "github"
