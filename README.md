@@ -1,5 +1,7 @@
 # Dataset Join & Merge (Remote MCP Server)
 
+[![Dataset Join & Merge (Remote MCP Server) MCP connector](https://glama.ai/mcp/connectors/io.github.Nero-Engine/dataset-join-merge/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Nero-Engine/dataset-join-merge)
+
 **Join two lists of JSON rows on a shared key, like a SQL join or a spreadsheet VLOOKUP, in a single tool call.** Hand it a main list and a lookup list, name the key, pick a join type, and it hands back one combined list plus an exact account of how many rows matched on each side and why the rest did not.
 
 Built for AI agents. No install, no API key, no signup. Connect by URL and call it.
