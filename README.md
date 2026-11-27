@@ -124,3 +124,7 @@ Your rows are processed in memory and never stored. To see which tools get used,
 The same engine runs on the Apify Store as [Dataset Join & Merge](https://apify.com/nerolabs/dataset-join-merge), which also reads Apify datasets, CSV, Excel and JSON files and Google Sheets by URL on either side, handles up to 100,000 rows per side, exports the result as CSV or Excel, appends it to a named dataset that builds up across runs, and can POST it to a webhook.
 
 Built by **Nero Labs**.
+
+## Gemini CLI
+
+- **Gemini CLI:** `gemini extensions install https://github.com/Nero-Engine/dataset-join-merge-mcp`

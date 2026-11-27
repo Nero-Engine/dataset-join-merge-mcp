@@ -1,0 +1,12 @@
+{
+  "name": "dataset-join-merge",
+  "version": "0.2.0",
+  "description": "Join two lists of JSON rows on a key, like SQL or VLOOKUP: left, inner, full, anti joins, union.",
+  "mcpServers": {
+    "dataset-join-merge": {
+      "httpUrl": "https://dataset-join-merge.nerolabs.workers.dev/mcp",
+      "timeout": 30000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
